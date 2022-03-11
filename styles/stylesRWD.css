@@ -8,7 +8,7 @@ body {
     width: 100%;
     height: 100%;
     grid-template-columns: repeat(4, minmax(5vh, 1fr));
-    grid-template-rows: 150px repeat(3 1fr) 100px;
+    grid-template-rows: 150px repeat(3, 1fr) 100px;
     grid-template-areas: "header header header header"
         "main main main aside"
         "main main main aside"
@@ -68,7 +68,7 @@ main {
 .aside {
     grid-area: aside;
     background-color: rgba(173, 241, 173, 0.2);
-    width: minmax(50px, 1fr);
+    width: 5vw;
 }
 
 .footer {

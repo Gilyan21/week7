@@ -17,9 +17,9 @@
     <nav class="nav">
         <ul>
             <li class="menu-item"><a href="#">Home</a></li>
-            <li class="menu-item"><a href="#" class="menu-item">About</a></li>
-            <li class="menu-item"><a href="#" class="menu-item">Product</a></li>
-            <li class="menu-item"><a href="#" class="menu-item">Pricing</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+            <li class="menu-item"><a href="#">Product</a></li>
+            <li class="menu-item"><a href="#">Pricing</a></li>
         </ul>
     </nav>
     <!-- title of the block -->
@@ -45,7 +45,7 @@
         <div class="serviceIcon"><img src="assets/design-service-icon.svg" alt="Design service icon">
         </div>
         <div class="textWrapper">
-            <span class="serviceName">Design</span>
+            <div class="serviceName">Design</div>
             <p class="serviceDescription">a plan or drawing produced to show the look and function</p>
         </div>
     </div>
@@ -54,7 +54,7 @@
         <div class="serviceIcon"><img src="assets/dev-service-icon.svg" alt="dev-service-icon">
         </div>
         <div class="textWrapper">
-            <span class="serviceName">Development</span>
+            <div class="serviceName">Development</div>
             <p class="serviceDescription">Development is defined as the process of growth or new</p>
         </div>
     </div>
@@ -62,7 +62,7 @@
     <div class="servicePannel" id="brandingService">
         <div class="serviceIcon"><img src="assets/branding-service-icon.svg" alt="branding-service-icon"></div>
         <div class="textWrapper">
-            <span class="serviceName">Branding</span>
+            <div class="serviceName">Branding</div>
             <p class="serviceDescription">The marketing practice of creating a name, symbol or</p>
         </div>
     </div>
@@ -70,7 +70,7 @@
     <div class="servicePannel" id="illustrationService">
         <div class="serviceIcon"><img src="assets/illustrating-service-icon.svg" alt="illustrating-service-icon"></div>
         <div class="textWrapper">
-            <span class="serviceName">Illustration</span>
+            <div class="serviceName">Illustration</div>
             <p class="serviceDescription">An illustration is a decoration, interpretation or visual</p>
         </div>
     </div>
@@ -83,7 +83,7 @@
         <h3 class="subHeader">We Love To Design Your Creative Ideas</h3>
         <p class="sectionDescription">A creative concept is an overarching “Big Idea” that captures audience interest, influences their emotional response and inspires them to take action. It is a unifying theme that can be used across all campaign messages</p>
     </div>
-    <div class="sectionImage" id="designSectionImage"></div>
+    <div class="sectionImage"></div>
     <button class="button">Learn more</button>
 </section>
 
@@ -106,12 +106,13 @@
     </div>
     <div class="testimonialsSection__image"></div>
         <div class="wrapper">
-            <div class="testimonialsSection__client">Jorge Morrison <p class="testimonialsSection__client-address">North California, USA
+            <div class="testimonialsSection__client">Jorge Morrison <p class="testimonialsSection__client-address">North California, USA</p>
             <span class="slider">
                 <button class="slider slider__left"></button>
                 <button class="slider slider__right"></button>
             </span>
             </div>
+        </div>
 </section>
 
 <section class="brandsSection">
@@ -123,19 +124,17 @@
 </section>
 
 <section class="subscriptions">
-        <h3 class="subHeader">Subscribe To Our Blog</h3>
-        <div class="subscriptions__text-wrap">
+    <h3 class="subHeader">Subscribe To Our Blog</h3>
+    <div class="subscriptions__text-wrap">
         <div class="sectionDescription">A newsletter is a tool used to communicate regularly with
         your subscribers, delivering the information</div>
-        </div>    
+    </div>    
     <div class="subscriptions__image"></div>
 
-    <div class="wrap">
-        <form>
+    <form class="wrap">
         <input type="email" class="email" placeholder="Type Your Email Address">
         <button class="button">Send now</button>
     </form>
-    </div>
 </section>
 </main>
 
