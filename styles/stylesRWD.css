@@ -68,7 +68,7 @@ main {
 .aside {
     grid-area: aside;
     background-color: rgba(173, 241, 173, 0.2);
-    width: 5vw;
+
 }
 
 .footer {
